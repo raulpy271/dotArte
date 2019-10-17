@@ -1,0 +1,17 @@
+p {
+  font-size:8px;
+  font-family: 'Roboto Mono', monospace, Times New Roman;
+  white-space: pre;
+  letter-spacing: 6px;
+  line-height: 1;
+}
+input, .file-chooser, .bt {
+  cursor:pointer; 
+  font-size:50px;
+  background:linear-gradient(to bottom, rgb(50, 200, 50) 5%, rgb(30, 150, 30) 100%);
+}
+.file-chooser:active, .bt:active {
+  position:relative;
+  background:linear-gradient(to bottom, rgb(40, 140, 40) 5%, rgb(10, 100, 10) 100%);
+  top:10px;
+  }
